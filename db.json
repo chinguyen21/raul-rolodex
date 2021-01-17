@@ -1,83 +1,103 @@
 {
-    "people":[{
-        "id": 1,
-        "name": "Raul Sanchez",
-        "pronouns": "he/him",
-        "alum?": false,
-        "instructor?": true,
-        "github": "https://github.com/rmsanchez93",
-        "profilePicture": "https://avatars3.githubusercontent.com/u/38088164?s=460&u=6310e60448617354cbecfb7ffcd30e691e095931&v=4"
-    },{
-        "id": 2,
-        "name": "Joe Burks",
-        "pronouns": "he/him",
-        "alum?": true,
-        "instructor?": true,
-        "github": "https://github.com/Joseph-Burks",
-        "profilePicture": "https://avatars3.githubusercontent.com/u/56845745?s=460&u=7974035c20f17528da0cd381492cb7a025d7392a&v=4"
-        },{
-        "id": 3,
-        "name": "Dane Dawson",
-        "pronouns": "he/him",
-        "alum?": true,
-        "instructor?": true,
-        "github": "https://github.com/Dane-Dawson",
-        "profilePicture": "https://avatars0.githubusercontent.com/u/59668332?s=460&u=0c997f6c2db79afc0f2bdda6b3495c8721e251fc&v=4"
-    },{
-        "id": 3,
-        "name": "Lili Rodriguez",
-        "pronouns": "she/her",
-        "alum?": true,
-        "instructor?": false,
-        "github": "https://github.com/lilirdz",
-        "profilePicture": "https://ca.slack-edge.com/T02MD9XTF-U011L6M4RSA-8524eea6995a-512"
-    },{
-        "id": 4,
-        "name": "Vivian Tran",
-        "pronouns": "she/her",
-        "alum?": true,
-        "instructor?": false,
-        "github": "https://github.com/vivtran94",
-        "profilePicture": "https://ca.slack-edge.com/T02MD9XTF-UPBJ10N2F-b6acd124707f-512"
-    },{
-        "id": 5,
-        "name": "Luis Bernal",
-        "pronouns": "he/him",
-        "alum?": true,
-        "instructor?": false,
-        "github": "https://github.com/LRB8010",
-        "profilePicture": "https://avatars3.githubusercontent.com/u/61534025?s=460&u=970cce92459e701f397f3b23a58a4209278f8bbd&v=4"
-    },{
-        "id": 6,
-        "name": "Stephanie Cheney",
-        "pronouns": "she/her",
-        "alum?": true,
-        "instructor?": false,
-        "github": "https://github.com/steph544",
-        "profilePicture": "https://ca.slack-edge.com/T02MD9XTF-U011L6M776J-6cc4b93f069c-512"
-    },{
-        "id": 7,
-        "name": "Anam Soomro",
-        "pronouns": "she/her",
-        "alum?": true,
-        "instructor?": false,
-        "github": "https://github.com/anamsoomro",
-        "profilePicture": "https://avatars2.githubusercontent.com/u/55167237?s=460&u=d5a711e601e50ce415dfeb980cebab48b2ee7a4a&v=4"
-    },{
-        "id": 8,
-        "name": "Phyllis Njoroge",
-        "pronouns": "she/they",
-        "alum?": true,
-        "instructor?": false,
-        "github": "http://github.com/eiphyllis",
-        "profilePicture": "https://ca.slack-edge.com/T02MD9XTF-U011L6M6ET0-7c4123c68e97-512"
-    },{
-        "id": 9,
-        "name": "Carlos Barrera",
-        "pronouns": "he/him",
-        "alum?": true,
-        "instructor?": false,
-        "github": "https://github.com/barrera713",
-        "profilePicture": "https://ca.slack-edge.com/T02MD9XTF-UJM5NBACC-3745ea46c23c-512"
-    }]
+  "people": [
+    {
+      "id": 1,
+      "name": "Raul Sanchez",
+      "pronouns": "he/him",
+      "alum?": false,
+      "instructor?": true,
+      "github": "https://github.com/rmsanchez93",
+      "profilePicture": "https://avatars3.githubusercontent.com/u/38088164?s=460&u=6310e60448617354cbecfb7ffcd30e691e095931&v=4"
+    },
+    {
+      "id": 2,
+      "name": "Joe",
+      "pronouns": "he/him",
+      "alum?": true,
+      "instructor?": true,
+      "github": "https://github.com/Joseph-Burks",
+      "profilePicture": "https://avatars3.githubusercontent.com/u/56845745?s=460&u=7974035c20f17528da0cd381492cb7a025d7392a&v=4"
+    },
+    {
+      "id": 3,
+      "name": "Dane",
+      "pronouns": "he/him",
+      "alum?": true,
+      "instructor?": true,
+      "github": "https://github.com/Dane-Dawson",
+      "profilePicture": "https://avatars0.githubusercontent.com/u/59668332?s=460&u=0c997f6c2db79afc0f2bdda6b3495c8721e251fc&v=4"
+    },
+    {
+      "id": 4,
+      "name": "Lili Rodriguez",
+      "pronouns": "she/her",
+      "alum?": true,
+      "instructor?": false,
+      "github": "https://github.com/lilirdz",
+      "profilePicture": "https://ca.slack-edge.com/T02MD9XTF-U011L6M4RSA-8524eea6995a-512"
+    },
+    {
+      "id": 5,
+      "name": "Vivian Tran",
+      "pronouns": "she/her",
+      "alum?": true,
+      "instructor?": false,
+      "github": "https://github.com/vivtran94",
+      "profilePicture": "https://ca.slack-edge.com/T02MD9XTF-UPBJ10N2F-b6acd124707f-512"
+    },
+    {
+      "id": 6,
+      "name": "Luis Bernal",
+      "pronouns": "he/him",
+      "alum?": true,
+      "instructor?": false,
+      "github": "https://github.com/LRB8010",
+      "profilePicture": "https://avatars3.githubusercontent.com/u/61534025?s=460&u=970cce92459e701f397f3b23a58a4209278f8bbd&v=4"
+    },
+    {
+      "id": 7,
+      "name": "Stephanie Cheney",
+      "pronouns": "she/her",
+      "alum?": true,
+      "instructor?": false,
+      "github": "https://github.com/steph544",
+      "profilePicture": "https://ca.slack-edge.com/T02MD9XTF-U011L6M776J-6cc4b93f069c-512"
+    },
+    {
+      "id": 8,
+      "name": "Anam Soomro",
+      "pronouns": "she/her",
+      "alum?": true,
+      "instructor?": false,
+      "github": "https://github.com/anamsoomro",
+      "profilePicture": "https://avatars2.githubusercontent.com/u/55167237?s=460&u=d5a711e601e50ce415dfeb980cebab48b2ee7a4a&v=4"
+    },
+    {
+      "id": 9,
+      "name": "Phyllis Njoroge",
+      "pronouns": "she/they",
+      "alum?": true,
+      "instructor?": false,
+      "github": "http://github.com/eiphyllis",
+      "profilePicture": "https://ca.slack-edge.com/T02MD9XTF-U011L6M6ET0-7c4123c68e97-512"
+    },
+    {
+      "id": 10,
+      "name": "Carlos Barrera",
+      "pronouns": "he/him",
+      "alum?": true,
+      "instructor?": false,
+      "github": "https://github.com/barrera713",
+      "profilePicture": "https://ca.slack-edge.com/T02MD9XTF-UJM5NBACC-3745ea46c23c-512"
+    },
+    {
+      "name": "Chi Nguyen",
+      "pronouns": "he/him",
+      "alum?": "true",
+      "instructor?": "false",
+      "github": "https://github.com/chinguyen21",
+      "profilePicture": "https://avatars0.githubusercontent.com/u/72955645?s=460&u=d1783c6c453e682635361097589fba3805d3403a&v=4",
+      "id": 11
+    }
+  ]
 }
