@@ -114,19 +114,16 @@ const renderPerson = (person) => {
     let a1 = document.createElement('a')
     a1.classList.add("btn", "btn-primary")
     a1.href=`#edit_person_${person.id}`
-    $(".btn").attr("data-toggle", "collapse");
-    $(".btn").attr("role", "button");
-    $(".btn").attr("aria-expanded", "false");
-    $(".btn").attr("aria-controls", "collapseFormButton");
     a1.innerText = "Update Person!"
 
     
     let edit_form = document.createElement('form')
     edit_form.id = `edit_person_${person.id}`
     edit_form.classList.add("collapse", "multi-collapse")
+    console.log(person.name)
     edit_form.innerHTML = `<div class="form-group">
                 <label for="Name">Name</label>
-                <input type="text" value = ${person.name} class="form-control" id="name" aria-describedby="nameInput">
+                <input type="text" value = "${person.name}" class="form-control" id="name" aria-describedby="nameInput">
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>`
 
@@ -134,6 +131,13 @@ const renderPerson = (person) => {
     sub_div.append(h5,p1,p2,p3,a,a1,edit_form)
     div1.append(img,sub_div)
     people_div.appendChild(div1)
+
+    $(".btn").attr("data-toggle", "collapse");
+    $(".btn").attr("role", "button");
+    $(".btn").attr("aria-expanded", "false");
+    $(".btn").attr("aria-controls", "collapseFormButton");
+
+
     document.getElementById(`edit_person_${person.id}`).addEventListener("submit", event => editPerson(event, person));
 
 }
